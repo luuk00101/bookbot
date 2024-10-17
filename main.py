@@ -1,2 +1,2 @@
 with open("books/frankenstein.txt") as book:
-    print(book.read())
+    print(len(book.read().split()))
